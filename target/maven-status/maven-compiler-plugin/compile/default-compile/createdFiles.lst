@@ -1,0 +1,8 @@
+pageobjects\HomePage.class
+pageobjects\Shoppingcartpage.class
+pageobjects\checkoutpage.class
+pageobjects\Adress_BookPage.class
+pageobjects\MyAccountPage.class
+pageobjects\indexpage.class
+pageobjects\searchpage.class
+pageobjects\Registerpage.class

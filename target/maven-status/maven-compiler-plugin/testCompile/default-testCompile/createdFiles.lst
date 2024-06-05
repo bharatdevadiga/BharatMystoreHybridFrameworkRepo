@@ -1,0 +1,11 @@
+mystore\testcases\TC_BuyProduct.class
+mystore\utilities\ExtentListenerClass.class
+mystore\testcases\TC_AddProductToWishlist.class
+mystore\testcases\TC_Searchproduct.class
+mystore\testcases\TC_AccountLogin.class
+mystore\baseclass\Baseclass.class
+mystore\testcases\TC_NavigationFlow.class
+mystore\testcases\TC_RemoveAddressHistory.class
+mystore\utilities\Readconfig.class
+mystore\testcases\TC_Edit_information.class
+mystore\utilities\Exceldata.class
