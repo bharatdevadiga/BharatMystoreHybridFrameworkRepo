@@ -629,3 +629,579 @@
 [INFO ] 2024-06-05 15:37:59.824 [main] MyStore - Entered product name
 [INFO ] 2024-06-05 15:38:00.063 [main] MyStore - Clicked on the searchbutton
 [INFO ] 2024-06-05 15:38:00.106 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+[INFO ] 2024-06-06 14:01:13.427 [main] MyStore - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2024-06-06 14:01:13.505 [main] MyStore - clicked on myaccount button
+[INFO ] 2024-06-06 14:01:13.850 [main] MyStore - clicked on register button
+[INFO ] 2024-06-06 14:01:13.958 [main] MyStore - entered firstname
+[INFO ] 2024-06-06 14:01:14.014 [main] MyStore - entered lastname
+[INFO ] 2024-06-06 14:01:14.087 [main] MyStore - entered emailid
+[INFO ] 2024-06-06 14:01:14.139 [main] MyStore - entered telephone no
+[INFO ] 2024-06-06 14:01:14.194 [main] MyStore - entered password
+[INFO ] 2024-06-06 14:01:14.245 [main] MyStore - entered confirmpasswod
+[INFO ] 2024-06-06 14:01:14.290 [main] MyStore - clicked on privacychckbx
+[INFO ] 2024-06-06 14:01:14.732 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 14:01:14.798 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:15.052 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:01:15.078 [main] MyStore - account logged out
+[INFO ] 2024-06-06 14:01:15.078 [main] MyStore - -------------------TESTCASE PASSED----------------------
+[INFO ] 2024-06-06 14:01:15.145 [main] MyStore - ***************TestCase Login with username and password starts*****************
+[INFO ] 2024-06-06 14:01:15.181 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:15.357 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:01:15.426 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:01:15.481 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:01:15.851 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:01:15.957 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:16.272 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:01:16.297 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 14:01:19.601 [main] MyStore - ***************TestCase ADD TO Wishlist STARTS*****************
+[INFO ] 2024-06-06 14:01:19.661 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:19.870 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:01:19.950 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:01:20.006 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:01:20.432 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:01:22.734 [main] MyStore - click on home icon
+[INFO ] 2024-06-06 14:01:22.800 [main] MyStore - Added Mac to wishlist
+[INFO ] 2024-06-06 14:01:24.854 [main] MyStore - Added APPLE PC to wishlist
+[INFO ] 2024-06-06 14:01:26.911 [main] MyStore - Added IPHONE to wishlist
+[INFO ] 2024-06-06 14:01:29.148 [main] MyStore - clciked on wishlist cart
+[INFO ] 2024-06-06 14:01:29.270 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 14:01:31.537 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 14:01:31.538 [main] MyStore - ***************TestCase ADD TO WISHLIST ENDS*****************
+[INFO ] 2024-06-06 14:01:31.598 [main] MyStore - ***************TestCase Remove Product FROM Wishlist STARTS*****************
+[INFO ] 2024-06-06 14:01:31.639 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:31.810 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:01:31.883 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:01:31.960 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:01:32.409 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:01:34.607 [main] MyStore - clicked on wishlist cart
+[INFO ] 2024-06-06 14:01:36.890 [main] MyStore - Removed iphone from cart
+[INFO ] 2024-06-06 14:01:39.161 [main] MyStore - Removed macbook from cart
+[INFO ] 2024-06-06 14:01:41.449 [main] MyStore - Removed Apple Pc from cart
+[INFO ] 2024-06-06 14:01:41.449 [main] MyStore - ***************TestCase Remove Product FROM Wishlist ENDS*****************
+[INFO ] 2024-06-06 14:01:43.486 [main] MyStore - ***************TestCase ADD TO CART STARTS*****************
+[INFO ] 2024-06-06 14:01:43.554 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:43.755 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:01:43.849 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:01:43.914 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:01:44.321 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:01:44.547 [main] MyStore - clicked on camera option
+[INFO ] 2024-06-06 14:01:44.905 [main] MyStore - Clicked on nikoncamera
+[INFO ] 2024-06-06 14:01:44.949 [main] MyStore - Clicked on addtocart buttn
+[INFO ] 2024-06-06 14:01:45.173 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 14:01:45.233 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:45.480 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:01:45.510 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 14:01:45.510 [main] MyStore - ***************TestCase ADDTO CART ENDS*****************
+[INFO ] 2024-06-06 14:01:45.550 [main] MyStore - ***************TestCase CHECKOUT  STARTS*****************
+[INFO ] 2024-06-06 14:01:45.589 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:01:45.756 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:01:45.822 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:01:45.872 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:01:46.208 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:01:46.438 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 14:01:46.484 [main] MyStore - clicked on estimate shopping option
+[INFO ] 2024-06-06 14:01:46.601 [main] MyStore - selected country
+[INFO ] 2024-06-06 14:01:46.761 [main] MyStore - Selected region
+[INFO ] 2024-06-06 14:01:46.817 [main] MyStore - Entered postalcode
+[INFO ] 2024-06-06 14:01:46.861 [main] MyStore - clicked on quotes button
+[INFO ] 2024-06-06 14:01:47.029 [main] MyStore - clicked on radio button
+[INFO ] 2024-06-06 14:01:52.078 [main] MyStore - clicked on apply shipping option
+[INFO ] 2024-06-06 14:01:52.086 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 14:01:52.094 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 14:01:52.361 [main] MyStore - clicked on checkout
+[INFO ] 2024-06-06 14:02:14.390 [main] MyStore - ***************TestCase Edit INFORMATION  STARTS*****************
+[INFO ] 2024-06-06 14:02:14.439 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:02:14.640 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:02:14.719 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:02:14.781 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:02:15.220 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:02:17.585 [main] MyStore - clicked on Edit option
+[INFO ] 2024-06-06 14:02:17.673 [main] MyStore - Entered first name
+[INFO ] 2024-06-06 14:02:17.752 [main] MyStore - Entered last name
+[INFO ] 2024-06-06 14:02:17.832 [main] MyStore - Entered Teleno
+[INFO ] 2024-06-06 14:02:18.123 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 14:02:18.167 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 14:02:20.430 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 14:02:20.430 [main] MyStore - ***************TestCase Edit information Ends*****************
+[INFO ] 2024-06-06 14:02:20.477 [main] MyStore - ***************TestCase CHANGE PASSWORD  STARTS*****************
+[INFO ] 2024-06-06 14:02:20.519 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:02:20.702 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:02:20.773 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:02:20.829 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:02:21.311 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:02:23.555 [main] MyStore - clicked on passwod option
+[INFO ] 2024-06-06 14:02:23.627 [main] MyStore - Enter change password
+[INFO ] 2024-06-06 14:02:23.691 [main] MyStore - Enter confirm change password
+[INFO ] 2024-06-06 14:02:24.165 [main] MyStore - click on continue button
+[INFO ] 2024-06-06 14:02:24.165 [main] MyStore - ***************TestCase CHANGE PASSWORD  ENDS*****************
+[INFO ] 2024-06-06 14:02:26.127 [main] MyStore - ***************TestCase NAVIGATION FLOW STARTS*****************
+[INFO ] 2024-06-06 14:02:26.186 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:02:26.390 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:02:26.473 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:02:26.529 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:02:27.096 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:02:27.455 [main] MyStore - clicked on editoption
+[INFO ] 2024-06-06 14:02:27.646 [main] MyStore - clicked on Password
+[INFO ] 2024-06-06 14:02:27.889 [main] MyStore - clicked on Address_Book
+[INFO ] 2024-06-06 14:02:28.099 [main] MyStore - clicked on wishlist
+[INFO ] 2024-06-06 14:02:28.319 [main] MyStore - clicked on order_history
+[INFO ] 2024-06-06 14:02:28.519 [main] MyStore - clicked on downloads
+[INFO ] 2024-06-06 14:02:28.707 [main] MyStore - clicked on RecurringPayments
+[INFO ] 2024-06-06 14:02:28.900 [main] MyStore - clicked on Rewards
+[INFO ] 2024-06-06 14:02:29.100 [main] MyStore - clicked on Returns
+[INFO ] 2024-06-06 14:02:29.297 [main] MyStore - clicked on Transactions
+[INFO ] 2024-06-06 14:02:29.491 [main] MyStore - clicked on NewsLetter
+[INFO ] 2024-06-06 14:02:29.760 [main] MyStore - clicked on logout
+[INFO ] 2024-06-06 14:02:29.760 [main] MyStore - ***************TestCase NAVIGATION FLOW ENDS*****************
+[INFO ] 2024-06-06 14:02:31.726 [main] MyStore - ***************TestCase Remove Address History STARTS*****************
+[INFO ] 2024-06-06 14:02:31.783 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:02:31.989 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:02:32.070 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:02:32.126 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:02:32.489 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:02:34.693 [main] MyStore - clicked on address book option 
+[INFO ] 2024-06-06 14:02:38.043 [main] MyStore - ***************TestCase Address History Ends*****************
+[INFO ] 2024-06-06 14:02:40.004 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 14:02:40.117 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:02:40.356 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:02:40.376 [main] MyStore - ***************TestCase search validproduct Ends*****************
+[INFO ] 2024-06-06 14:02:40.411 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 14:02:40.505 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:02:40.685 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:02:40.708 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+[INFO ] 2024-06-06 14:05:04.972 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 14:05:05.087 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:05:05.327 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:05:05.356 [main] MyStore - ***************TestCase search validproduct Ends*****************
+[INFO ] 2024-06-06 14:05:05.457 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 14:05:05.545 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:05:05.724 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:05:05.748 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+[INFO ] 2024-06-06 14:20:38.423 [main] MyStore - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2024-06-06 14:20:38.499 [main] MyStore - clicked on myaccount button
+[INFO ] 2024-06-06 14:20:38.839 [main] MyStore - clicked on register button
+[INFO ] 2024-06-06 14:20:38.956 [main] MyStore - entered firstname
+[INFO ] 2024-06-06 14:20:39.013 [main] MyStore - entered lastname
+[INFO ] 2024-06-06 14:20:39.090 [main] MyStore - entered emailid
+[INFO ] 2024-06-06 14:20:39.148 [main] MyStore - entered telephone no
+[INFO ] 2024-06-06 14:20:39.199 [main] MyStore - entered password
+[INFO ] 2024-06-06 14:20:39.256 [main] MyStore - entered confirmpasswod
+[INFO ] 2024-06-06 14:20:39.304 [main] MyStore - clicked on privacychckbx
+[INFO ] 2024-06-06 14:20:39.777 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 14:20:39.839 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:20:40.110 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:20:40.150 [main] MyStore - account logged out
+[INFO ] 2024-06-06 14:20:40.150 [main] MyStore - -------------------TESTCASE PASSED----------------------
+[INFO ] 2024-06-06 14:20:40.232 [main] MyStore - ***************TestCase Login with username and password starts*****************
+[INFO ] 2024-06-06 14:20:40.267 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:20:40.447 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:20:40.521 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:20:40.572 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:20:40.927 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:20:41.025 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:20:41.270 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:20:41.295 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 14:20:43.285 [main] MyStore - ***************TestCase ADD TO Wishlist STARTS*****************
+[INFO ] 2024-06-06 14:20:43.365 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:20:43.550 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:20:43.634 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:20:43.690 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:20:44.122 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:20:46.317 [main] MyStore - click on home icon
+[INFO ] 2024-06-06 14:20:46.384 [main] MyStore - Added Mac to wishlist
+[INFO ] 2024-06-06 14:20:48.432 [main] MyStore - Added APPLE PC to wishlist
+[INFO ] 2024-06-06 14:20:50.490 [main] MyStore - Added IPHONE to wishlist
+[INFO ] 2024-06-06 14:20:52.733 [main] MyStore - clciked on wishlist cart
+[INFO ] 2024-06-06 14:20:52.859 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 14:20:55.123 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 14:20:55.123 [main] MyStore - ***************TestCase ADD TO WISHLIST ENDS*****************
+[INFO ] 2024-06-06 14:20:55.193 [main] MyStore - ***************TestCase Remove Product FROM Wishlist STARTS*****************
+[INFO ] 2024-06-06 14:20:55.235 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:20:55.419 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:20:55.491 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:20:55.543 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:20:55.893 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:20:58.174 [main] MyStore - clicked on wishlist cart
+[INFO ] 2024-06-06 14:21:00.463 [main] MyStore - Removed iphone from cart
+[INFO ] 2024-06-06 14:21:02.743 [main] MyStore - Removed macbook from cart
+[INFO ] 2024-06-06 14:21:05.026 [main] MyStore - Removed Apple Pc from cart
+[INFO ] 2024-06-06 14:21:05.026 [main] MyStore - ***************TestCase Remove Product FROM Wishlist ENDS*****************
+[INFO ] 2024-06-06 14:21:06.845 [main] MyStore - ***************TestCase ADD TO CART STARTS*****************
+[INFO ] 2024-06-06 14:21:06.915 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:07.100 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:21:07.190 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:21:07.246 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:21:07.700 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:21:07.939 [main] MyStore - clicked on camera option
+[INFO ] 2024-06-06 14:21:08.246 [main] MyStore - Clicked on nikoncamera
+[INFO ] 2024-06-06 14:21:08.298 [main] MyStore - Clicked on addtocart buttn
+[INFO ] 2024-06-06 14:21:08.550 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 14:21:08.611 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:08.855 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:21:08.888 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 14:21:08.888 [main] MyStore - ***************TestCase ADDTO CART ENDS*****************
+[INFO ] 2024-06-06 14:21:08.932 [main] MyStore - ***************TestCase CHECKOUT  STARTS*****************
+[INFO ] 2024-06-06 14:21:08.977 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:09.152 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:21:09.234 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:21:09.289 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:21:09.630 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:21:09.866 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 14:21:09.911 [main] MyStore - clicked on estimate shopping option
+[INFO ] 2024-06-06 14:21:10.020 [main] MyStore - selected country
+[INFO ] 2024-06-06 14:21:10.172 [main] MyStore - Selected region
+[INFO ] 2024-06-06 14:21:10.228 [main] MyStore - Entered postalcode
+[INFO ] 2024-06-06 14:21:10.275 [main] MyStore - clicked on quotes button
+[INFO ] 2024-06-06 14:21:10.438 [main] MyStore - clicked on radio button
+[INFO ] 2024-06-06 14:21:15.494 [main] MyStore - clicked on apply shipping option
+[INFO ] 2024-06-06 14:21:15.502 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 14:21:15.511 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 14:21:15.824 [main] MyStore - clicked on checkout
+[INFO ] 2024-06-06 14:21:37.699 [main] MyStore - ***************TestCase Edit INFORMATION  STARTS*****************
+[INFO ] 2024-06-06 14:21:37.749 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:37.942 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:21:38.045 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:21:38.105 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:21:38.588 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:21:40.950 [main] MyStore - clicked on Edit option
+[INFO ] 2024-06-06 14:21:41.040 [main] MyStore - Entered first name
+[INFO ] 2024-06-06 14:21:41.126 [main] MyStore - Entered last name
+[INFO ] 2024-06-06 14:21:41.211 [main] MyStore - Entered Teleno
+[INFO ] 2024-06-06 14:21:41.525 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 14:21:41.560 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 14:21:43.865 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 14:21:43.865 [main] MyStore - ***************TestCase Edit information Ends*****************
+[INFO ] 2024-06-06 14:21:43.917 [main] MyStore - ***************TestCase CHANGE PASSWORD  STARTS*****************
+[INFO ] 2024-06-06 14:21:43.960 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:44.164 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:21:44.235 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:21:44.289 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:21:44.717 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:21:46.933 [main] MyStore - clicked on passwod option
+[INFO ] 2024-06-06 14:21:46.996 [main] MyStore - Enter change password
+[INFO ] 2024-06-06 14:21:47.051 [main] MyStore - Enter confirm change password
+[INFO ] 2024-06-06 14:21:47.507 [main] MyStore - click on continue button
+[INFO ] 2024-06-06 14:21:47.508 [main] MyStore - ***************TestCase CHANGE PASSWORD  ENDS*****************
+[INFO ] 2024-06-06 14:21:49.299 [main] MyStore - ***************TestCase NAVIGATION FLOW STARTS*****************
+[INFO ] 2024-06-06 14:21:49.360 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:49.543 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:21:49.632 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:21:49.685 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:21:50.133 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:21:50.398 [main] MyStore - clicked on editoption
+[INFO ] 2024-06-06 14:21:50.600 [main] MyStore - clicked on Password
+[INFO ] 2024-06-06 14:21:50.812 [main] MyStore - clicked on Address_Book
+[INFO ] 2024-06-06 14:21:51.010 [main] MyStore - clicked on wishlist
+[INFO ] 2024-06-06 14:21:51.195 [main] MyStore - clicked on order_history
+[INFO ] 2024-06-06 14:21:51.396 [main] MyStore - clicked on downloads
+[INFO ] 2024-06-06 14:21:51.596 [main] MyStore - clicked on RecurringPayments
+[INFO ] 2024-06-06 14:21:51.791 [main] MyStore - clicked on Rewards
+[INFO ] 2024-06-06 14:21:51.984 [main] MyStore - clicked on Returns
+[INFO ] 2024-06-06 14:21:52.182 [main] MyStore - clicked on Transactions
+[INFO ] 2024-06-06 14:21:52.399 [main] MyStore - clicked on NewsLetter
+[INFO ] 2024-06-06 14:21:52.673 [main] MyStore - clicked on logout
+[INFO ] 2024-06-06 14:21:52.673 [main] MyStore - ***************TestCase NAVIGATION FLOW ENDS*****************
+[INFO ] 2024-06-06 14:21:54.437 [main] MyStore - ***************TestCase Remove Address History STARTS*****************
+[INFO ] 2024-06-06 14:21:54.503 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:21:54.691 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:21:54.774 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:21:54.831 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:21:55.262 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:21:57.493 [main] MyStore - clicked on address book option 
+[INFO ] 2024-06-06 14:22:00.818 [main] MyStore - ***************TestCase Address History Ends*****************
+[INFO ] 2024-06-06 14:22:02.501 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 14:22:02.620 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:22:02.845 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:22:02.870 [main] MyStore - ***************TestCase search validproduct Ends*****************
+[INFO ] 2024-06-06 14:22:02.908 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 14:22:03.015 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:22:03.199 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:22:03.224 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+[INFO ] 2024-06-06 14:24:05.239 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 14:24:05.358 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:24:05.586 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:24:05.615 [main] MyStore - ***************TestCase search validproduct Ends*****************
+[INFO ] 2024-06-06 14:24:05.718 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 14:24:05.804 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:24:05.980 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:24:06.008 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+[INFO ] 2024-06-06 14:24:40.775 [main] MyStore - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2024-06-06 14:24:40.860 [main] MyStore - clicked on myaccount button
+[INFO ] 2024-06-06 14:24:41.220 [main] MyStore - clicked on register button
+[INFO ] 2024-06-06 14:24:41.321 [main] MyStore - entered firstname
+[INFO ] 2024-06-06 14:24:41.378 [main] MyStore - entered lastname
+[INFO ] 2024-06-06 14:24:41.450 [main] MyStore - entered emailid
+[INFO ] 2024-06-06 14:24:41.506 [main] MyStore - entered telephone no
+[INFO ] 2024-06-06 14:24:41.558 [main] MyStore - entered password
+[INFO ] 2024-06-06 14:24:41.611 [main] MyStore - entered confirmpasswod
+[INFO ] 2024-06-06 14:24:41.653 [main] MyStore - clicked on privacychckbx
+[INFO ] 2024-06-06 14:24:42.091 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 14:24:42.153 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:24:42.418 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:24:42.445 [main] MyStore - account logged out
+[INFO ] 2024-06-06 14:24:42.445 [main] MyStore - -------------------TESTCASE PASSED----------------------
+[INFO ] 2024-06-06 14:24:42.510 [main] MyStore - ***************TestCase Login with username and password starts*****************
+[INFO ] 2024-06-06 14:24:42.547 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:24:42.728 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:24:42.801 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:24:42.851 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:24:43.212 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:24:43.305 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:24:43.591 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:24:43.609 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 14:24:45.452 [main] MyStore - ***************TestCase ADD TO Wishlist STARTS*****************
+[INFO ] 2024-06-06 14:24:45.514 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:24:45.726 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:24:45.821 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:24:45.881 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:24:46.242 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:24:48.432 [main] MyStore - click on home icon
+[INFO ] 2024-06-06 14:24:48.504 [main] MyStore - Added Mac to wishlist
+[INFO ] 2024-06-06 14:24:50.548 [main] MyStore - Added APPLE PC to wishlist
+[INFO ] 2024-06-06 14:24:52.600 [main] MyStore - Added IPHONE to wishlist
+[INFO ] 2024-06-06 14:24:54.850 [main] MyStore - clciked on wishlist cart
+[INFO ] 2024-06-06 14:24:54.957 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 14:24:57.217 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 14:24:57.217 [main] MyStore - ***************TestCase ADD TO WISHLIST ENDS*****************
+[INFO ] 2024-06-06 14:24:57.281 [main] MyStore - ***************TestCase Remove Product FROM Wishlist STARTS*****************
+[INFO ] 2024-06-06 14:24:57.327 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:24:57.499 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:24:57.575 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:24:57.629 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:24:58.004 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:25:00.302 [main] MyStore - clicked on wishlist cart
+[INFO ] 2024-06-06 14:25:03.058 [main] MyStore - Removed iphone from cart
+[INFO ] 2024-06-06 14:25:05.380 [main] MyStore - Removed macbook from cart
+[INFO ] 2024-06-06 14:25:07.691 [main] MyStore - Removed Apple Pc from cart
+[INFO ] 2024-06-06 14:25:07.692 [main] MyStore - ***************TestCase Remove Product FROM Wishlist ENDS*****************
+[INFO ] 2024-06-06 14:25:09.587 [main] MyStore - ***************TestCase ADD TO CART STARTS*****************
+[INFO ] 2024-06-06 14:25:09.657 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:09.855 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:25:09.936 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:25:09.999 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:25:10.419 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:25:10.650 [main] MyStore - clicked on camera option
+[INFO ] 2024-06-06 14:25:10.986 [main] MyStore - Clicked on nikoncamera
+[INFO ] 2024-06-06 14:25:11.044 [main] MyStore - Clicked on addtocart buttn
+[INFO ] 2024-06-06 14:25:11.256 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 14:25:11.318 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:11.575 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 14:25:11.608 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 14:25:11.608 [main] MyStore - ***************TestCase ADDTO CART ENDS*****************
+[INFO ] 2024-06-06 14:25:11.652 [main] MyStore - ***************TestCase CHECKOUT  STARTS*****************
+[INFO ] 2024-06-06 14:25:11.693 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:11.864 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:25:11.934 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:25:11.985 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:25:12.336 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 14:25:12.601 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 14:25:12.650 [main] MyStore - clicked on estimate shopping option
+[INFO ] 2024-06-06 14:25:12.765 [main] MyStore - selected country
+[INFO ] 2024-06-06 14:25:12.926 [main] MyStore - Selected region
+[INFO ] 2024-06-06 14:25:12.983 [main] MyStore - Entered postalcode
+[INFO ] 2024-06-06 14:25:13.023 [main] MyStore - clicked on quotes button
+[INFO ] 2024-06-06 14:25:13.192 [main] MyStore - clicked on radio button
+[INFO ] 2024-06-06 14:25:18.242 [main] MyStore - clicked on apply shipping option
+[INFO ] 2024-06-06 14:25:18.250 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 14:25:18.258 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 14:25:18.546 [main] MyStore - clicked on checkout
+[INFO ] 2024-06-06 14:25:40.366 [main] MyStore - ***************TestCase Edit INFORMATION  STARTS*****************
+[INFO ] 2024-06-06 14:25:40.414 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:40.596 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:25:40.692 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:25:40.744 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:25:41.163 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:25:43.528 [main] MyStore - clicked on Edit option
+[INFO ] 2024-06-06 14:25:43.617 [main] MyStore - Entered first name
+[INFO ] 2024-06-06 14:25:43.697 [main] MyStore - Entered last name
+[INFO ] 2024-06-06 14:25:43.787 [main] MyStore - Entered Teleno
+[INFO ] 2024-06-06 14:25:44.051 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 14:25:44.090 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 14:25:46.450 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 14:25:46.450 [main] MyStore - ***************TestCase Edit information Ends*****************
+[INFO ] 2024-06-06 14:25:46.506 [main] MyStore - ***************TestCase CHANGE PASSWORD  STARTS*****************
+[INFO ] 2024-06-06 14:25:46.552 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:46.731 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:25:46.800 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:25:46.849 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:25:47.209 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:25:49.408 [main] MyStore - clicked on passwod option
+[INFO ] 2024-06-06 14:25:49.466 [main] MyStore - Enter change password
+[INFO ] 2024-06-06 14:25:49.527 [main] MyStore - Enter confirm change password
+[INFO ] 2024-06-06 14:25:49.959 [main] MyStore - click on continue button
+[INFO ] 2024-06-06 14:25:49.959 [main] MyStore - ***************TestCase CHANGE PASSWORD  ENDS*****************
+[INFO ] 2024-06-06 14:25:51.776 [main] MyStore - ***************TestCase NAVIGATION FLOW STARTS*****************
+[INFO ] 2024-06-06 14:25:51.834 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:52.017 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:25:52.104 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:25:52.161 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:25:52.594 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:25:52.856 [main] MyStore - clicked on editoption
+[INFO ] 2024-06-06 14:25:53.054 [main] MyStore - clicked on Password
+[INFO ] 2024-06-06 14:25:53.242 [main] MyStore - clicked on Address_Book
+[INFO ] 2024-06-06 14:25:53.442 [main] MyStore - clicked on wishlist
+[INFO ] 2024-06-06 14:25:53.625 [main] MyStore - clicked on order_history
+[INFO ] 2024-06-06 14:25:53.825 [main] MyStore - clicked on downloads
+[INFO ] 2024-06-06 14:25:54.023 [main] MyStore - clicked on RecurringPayments
+[INFO ] 2024-06-06 14:25:54.227 [main] MyStore - clicked on Rewards
+[INFO ] 2024-06-06 14:25:54.412 [main] MyStore - clicked on Returns
+[INFO ] 2024-06-06 14:25:54.604 [main] MyStore - clicked on Transactions
+[INFO ] 2024-06-06 14:25:54.795 [main] MyStore - clicked on NewsLetter
+[INFO ] 2024-06-06 14:25:55.054 [main] MyStore - clicked on logout
+[INFO ] 2024-06-06 14:25:55.054 [main] MyStore - ***************TestCase NAVIGATION FLOW ENDS*****************
+[INFO ] 2024-06-06 14:25:56.938 [main] MyStore - ***************TestCase Remove Address History STARTS*****************
+[INFO ] 2024-06-06 14:25:57.002 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 14:25:57.224 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 14:25:57.305 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 14:25:57.366 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 14:25:57.785 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 14:25:59.985 [main] MyStore - clicked on address book option 
+[INFO ] 2024-06-06 14:26:03.326 [main] MyStore - ***************TestCase Address History Ends*****************
+[INFO ] 2024-06-06 14:26:05.009 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 14:26:05.132 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:26:05.349 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:26:05.370 [main] MyStore - ***************TestCase search validproduct Ends*****************
+[INFO ] 2024-06-06 14:26:05.423 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 14:26:05.534 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 14:26:05.727 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 14:26:05.752 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+[INFO ] 2024-06-06 15:19:32.522 [main] MyStore - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2024-06-06 15:19:32.663 [main] MyStore - clicked on myaccount button
+[INFO ] 2024-06-06 15:19:33.076 [main] MyStore - clicked on register button
+[INFO ] 2024-06-06 15:19:33.259 [main] MyStore - entered firstname
+[INFO ] 2024-06-06 15:19:33.366 [main] MyStore - entered lastname
+[INFO ] 2024-06-06 15:19:33.515 [main] MyStore - entered emailid
+[INFO ] 2024-06-06 15:19:33.637 [main] MyStore - entered telephone no
+[INFO ] 2024-06-06 15:19:33.743 [main] MyStore - entered password
+[INFO ] 2024-06-06 15:19:33.851 [main] MyStore - entered confirmpasswod
+[INFO ] 2024-06-06 15:19:33.936 [main] MyStore - clicked on privacychckbx
+[INFO ] 2024-06-06 15:19:34.443 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 15:19:34.601 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:34.962 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 15:19:35.020 [main] MyStore - account logged out
+[INFO ] 2024-06-06 15:19:35.020 [main] MyStore - -------------------TESTCASE PASSED----------------------
+[INFO ] 2024-06-06 15:19:35.193 [main] MyStore - ***************TestCase Login with username and password starts*****************
+[INFO ] 2024-06-06 15:19:35.271 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:35.546 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:19:35.678 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:19:35.783 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:19:36.266 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 15:19:36.360 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:36.686 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 15:19:36.726 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 15:19:39.286 [main] MyStore - ***************TestCase ADD TO Wishlist STARTS*****************
+[INFO ] 2024-06-06 15:19:39.391 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:39.664 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:19:39.931 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:19:40.036 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:19:40.603 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:19:42.917 [main] MyStore - click on home icon
+[INFO ] 2024-06-06 15:19:43.022 [main] MyStore - Added Mac to wishlist
+[INFO ] 2024-06-06 15:19:45.123 [main] MyStore - Added APPLE PC to wishlist
+[INFO ] 2024-06-06 15:19:47.221 [main] MyStore - Added IPHONE to wishlist
+[INFO ] 2024-06-06 15:19:49.576 [main] MyStore - clciked on wishlist cart
+[INFO ] 2024-06-06 15:19:49.826 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 15:19:52.179 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 15:19:52.180 [main] MyStore - ***************TestCase ADD TO WISHLIST ENDS*****************
+[INFO ] 2024-06-06 15:19:52.301 [main] MyStore - ***************TestCase Remove Product FROM Wishlist STARTS*****************
+[INFO ] 2024-06-06 15:19:52.381 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:52.651 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:19:52.820 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:19:52.999 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:19:53.511 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:19:55.782 [main] MyStore - clicked on wishlist cart
+[INFO ] 2024-06-06 15:19:58.200 [main] MyStore - Removed iphone from cart
+[INFO ] 2024-06-06 15:20:00.709 [main] MyStore - Removed macbook from cart
+[INFO ] 2024-06-06 15:20:03.578 [main] MyStore - Removed Apple Pc from cart
+[INFO ] 2024-06-06 15:20:03.579 [main] MyStore - ***************TestCase Remove Product FROM Wishlist ENDS*****************
+[INFO ] 2024-06-06 15:20:07.211 [main] MyStore - ***************TestCase ADD TO CART STARTS*****************
+[INFO ] 2024-06-06 15:20:07.343 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:07.609 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:07.871 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:07.980 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:08.465 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 15:20:08.835 [main] MyStore - clicked on camera option
+[INFO ] 2024-06-06 15:20:09.275 [main] MyStore - Clicked on nikoncamera
+[INFO ] 2024-06-06 15:20:09.385 [main] MyStore - Clicked on addtocart buttn
+[INFO ] 2024-06-06 15:20:09.690 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 15:20:09.904 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:10.269 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 15:20:10.330 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 15:20:10.330 [main] MyStore - ***************TestCase ADDTO CART ENDS*****************
+[INFO ] 2024-06-06 15:20:10.405 [main] MyStore - ***************TestCase CHECKOUT  STARTS*****************
+[INFO ] 2024-06-06 15:20:10.487 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:10.756 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:10.907 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:11.028 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:11.453 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 15:20:11.926 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 15:20:12.032 [main] MyStore - clicked on estimate shopping option
+[INFO ] 2024-06-06 15:20:12.281 [main] MyStore - selected country
+[INFO ] 2024-06-06 15:20:12.491 [main] MyStore - Selected region
+[INFO ] 2024-06-06 15:20:12.612 [main] MyStore - Entered postalcode
+[INFO ] 2024-06-06 15:20:12.704 [main] MyStore - clicked on quotes button
+[INFO ] 2024-06-06 15:20:12.938 [main] MyStore - clicked on radio button
+[INFO ] 2024-06-06 15:20:18.024 [main] MyStore - clicked on apply shipping option
+[INFO ] 2024-06-06 15:20:18.035 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 15:20:18.051 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 15:20:18.474 [main] MyStore - clicked on checkout
+[INFO ] 2024-06-06 15:20:41.192 [main] MyStore - ***************TestCase Edit INFORMATION  STARTS*****************
+[INFO ] 2024-06-06 15:20:41.281 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:41.519 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:41.836 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:41.939 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:42.414 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:20:45.099 [main] MyStore - clicked on Edit option
+[INFO ] 2024-06-06 15:20:45.308 [main] MyStore - Entered first name
+[INFO ] 2024-06-06 15:20:45.509 [main] MyStore - Entered last name
+[INFO ] 2024-06-06 15:20:45.705 [main] MyStore - Entered Teleno
+[INFO ] 2024-06-06 15:20:46.105 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 15:20:46.203 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 15:20:48.574 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 15:20:48.574 [main] MyStore - ***************TestCase Edit information Ends*****************
+[INFO ] 2024-06-06 15:20:48.661 [main] MyStore - ***************TestCase CHANGE PASSWORD  STARTS*****************
+[INFO ] 2024-06-06 15:20:48.745 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:48.989 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:49.159 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:49.283 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:49.803 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:20:52.122 [main] MyStore - clicked on passwod option
+[INFO ] 2024-06-06 15:20:52.275 [main] MyStore - Enter change password
+[INFO ] 2024-06-06 15:20:52.404 [main] MyStore - Enter confirm change password
+[INFO ] 2024-06-06 15:20:52.899 [main] MyStore - click on continue button
+[INFO ] 2024-06-06 15:20:52.899 [main] MyStore - ***************TestCase CHANGE PASSWORD  ENDS*****************
+[INFO ] 2024-06-06 15:20:56.941 [main] MyStore - ***************TestCase NAVIGATION FLOW STARTS*****************
+[INFO ] 2024-06-06 15:20:57.036 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:57.277 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:57.582 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:57.685 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:58.184 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:20:58.611 [main] MyStore - clicked on editoption
+[INFO ] 2024-06-06 15:20:58.912 [main] MyStore - clicked on Password
+[INFO ] 2024-06-06 15:20:59.229 [main] MyStore - clicked on Address_Book
+[INFO ] 2024-06-06 15:20:59.539 [main] MyStore - clicked on wishlist
+[INFO ] 2024-06-06 15:20:59.840 [main] MyStore - clicked on order_history
+[INFO ] 2024-06-06 15:21:00.150 [main] MyStore - clicked on downloads
+[INFO ] 2024-06-06 15:21:00.527 [main] MyStore - clicked on RecurringPayments
+[INFO ] 2024-06-06 15:21:00.975 [main] MyStore - clicked on Rewards
+[INFO ] 2024-06-06 15:21:01.265 [main] MyStore - clicked on Returns
+[INFO ] 2024-06-06 15:21:01.562 [main] MyStore - clicked on Transactions
+[INFO ] 2024-06-06 15:21:01.858 [main] MyStore - clicked on NewsLetter
+[INFO ] 2024-06-06 15:21:02.310 [main] MyStore - clicked on logout
+[INFO ] 2024-06-06 15:21:02.311 [main] MyStore - ***************TestCase NAVIGATION FLOW ENDS*****************
+[INFO ] 2024-06-06 15:21:04.797 [main] MyStore - ***************TestCase Remove Address History STARTS*****************
+[INFO ] 2024-06-06 15:21:04.916 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:21:05.162 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:21:05.397 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:21:05.505 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:21:05.998 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:21:08.332 [main] MyStore - clicked on address book option 
+[INFO ] 2024-06-06 15:21:11.797 [main] MyStore - ***************TestCase Address History Ends*****************
+[INFO ] 2024-06-06 15:21:14.386 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 15:21:14.577 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 15:21:14.858 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 15:21:14.893 [main] MyStore - ***************TestCase search validproduct Ends*****************
+[INFO ] 2024-06-06 15:21:14.947 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 15:21:15.131 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 15:21:15.363 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 15:21:15.397 [main] MyStore - ***************TestCase search invalidproduct Ends*****************

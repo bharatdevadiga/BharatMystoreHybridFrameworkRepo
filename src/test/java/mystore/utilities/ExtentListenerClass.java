@@ -1,5 +1,13 @@
 package mystore.utilities;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -7,13 +15,8 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 
 public class ExtentListenerClass implements ITestListener{
@@ -24,15 +27,15 @@ public class ExtentListenerClass implements ITestListener{
 
     public void configureReport()
     {
-       Readconfig readConfig = new Readconfig();
+        Readconfig readConfig = new Readconfig();
         String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
-        String reportName = "MyStoreTestReport-" + timestamp + ".html";
-        htmlReporter = new ExtentSparkReporter(("D:\\newprojectbranch\\Mystoreproject") + "/Reports/" + reportName);
+        String reportName = "MyStoreTestreport-" + timestamp + ".html";
+        htmlReporter = new ExtentSparkReporter(("D:\\mystorebharat\\mystoreBharat") + "/Reports/" + reportName);
         reports = new ExtentReports();
         reports.attachReporter(htmlReporter);
 
         //add system information/environment info to reports
-        reports.setSystemInfo("Machine:", "BharatPc");
+        reports.setSystemInfo("Machine:", "testpc1");
         reports.setSystemInfo("OS", "windows 11");
         reports.setSystemInfo("browser:", readConfig.getbrowser());
         reports.setSystemInfo("user name:", "bharat");
@@ -45,7 +48,7 @@ public class ExtentListenerClass implements ITestListener{
 
     }
 
-    //OnStart method is called when any Test starts.
+    //OnSt@art method is called when any Test starts.
     public void onStart(ITestContext Result)
     {
         configureReport();
@@ -70,7 +73,7 @@ public class ExtentListenerClass implements ITestListener{
         test = reports.createTest(Result.getName());//create entry in html report
         test.log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is: " + Result.getName() ,ExtentColor.RED));
 
-        String screenShotPath = System.getProperty("user.dir") + "\\ScreenShots\\" + Result.getName() + ".png";
+        String screenShotPath = System.getProperty("user.dir") + "//ScreenShots//" + Result.getName() + ".png";
 
         File screenShotFile = new File(screenShotPath);
 

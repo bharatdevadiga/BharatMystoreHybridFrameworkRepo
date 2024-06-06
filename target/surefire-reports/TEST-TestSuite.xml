@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="109.595" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\mystorebharat\mystoreBharat\target\test-classes;D:\mystorebharat\mystoreBharat\target\classes;C:\Users\bharat v devadiga\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bharat v devadiga\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bharat v devadiga\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bharat v devadiga\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\maven\plugins\maven-install-plugin\3.1.1\maven-install-plugin-3.1.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\bharat v devadiga\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\bharat v devadiga\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.0\plexus-utils-3.5.0.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\bharat v devadiga\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bharat v devadiga\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\bharat v devadiga\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\bharat v devadiga\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\bharat v devadiga\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\bharat v devadiga\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\bharat v devadiga\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\bharat v devadiga\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\bharat v devadiga\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar;C:\Users\bharat v devadiga\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\bharat v devadiga\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\bharat v devadiga\AppData\Local\Temp\surefire14392430134245151376\surefirebooter18368172999072309570.jar C:\Users\bharat v devadiga\AppData\Local\Temp\surefire14392430134245151376 2024-06-06T15-19-25_506-jvmRun1 surefire12573167743095195108tmp surefire_018446312856359977525tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\mystorebharat\mystoreBharat\target\test-classes;D:\mystorebharat\mystoreBharat\target\classes;C:\Users\bharat v devadiga\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bharat v devadiga\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bharat v devadiga\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bharat v devadiga\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\bharat v devadiga\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\maven\plugins\maven-install-plugin\3.1.1\maven-install-plugin-3.1.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\bharat v devadiga\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\bharat v devadiga\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.0\plexus-utils-3.5.0.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\bharat v devadiga\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bharat v devadiga\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\bharat v devadiga\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bharat v devadiga\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\bharat v devadiga\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\bharat v devadiga\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\bharat v devadiga\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\bharat v devadiga\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\bharat v devadiga\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\bharat v devadiga\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\bharat v devadiga\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\bharat v devadiga\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar;C:\Users\bharat v devadiga\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\bharat v devadiga\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bharat v devadiga"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\mystorebharat\mystoreBharat"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\bharat v devadiga\AppData\Local\Temp\surefire14392430134245151376\surefirebooter18368172999072309570.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="user.name" value="bharat v devadiga"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\bharat v devadiga\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BHARAT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="D:\mystorebharat\mystoreBharat"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\product\10.2.0\db_2\bin;C:\oracle\product\10.2.0\db_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\nodejs\;C:\Users\bharat v devadiga\AppData\Local\Programs\Python\Python312;C:\Program Files\Git\cmd;C:\Users\bharat v devadiga\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\bharat v devadiga\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.2\bin;C:\Users\bharat v devadiga\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="verifylogin[devadiga, 8553745510, 123456789, 123456789](1)" classname="mystore.testcases.TC_AccountLogin" time="2.524">
+    <system-out><![CDATA[On Start method invoked....
+1
+4
+devadiga
+8553745510
+123456789
+123456789
+Name of test method started:verifylogin
+[INFO ] 2024-06-06 15:19:32.522 [main] MyStore - ***************TestCase Verify Registration and Login starts*****************
+[INFO ] 2024-06-06 15:19:32.663 [main] MyStore - clicked on myaccount button
+[INFO ] 2024-06-06 15:19:33.076 [main] MyStore - clicked on register button
+[INFO ] 2024-06-06 15:19:33.259 [main] MyStore - entered firstname
+[INFO ] 2024-06-06 15:19:33.366 [main] MyStore - entered lastname
+[INFO ] 2024-06-06 15:19:33.515 [main] MyStore - entered emailid
+[INFO ] 2024-06-06 15:19:33.637 [main] MyStore - entered telephone no
+[INFO ] 2024-06-06 15:19:33.743 [main] MyStore - entered password
+[INFO ] 2024-06-06 15:19:33.851 [main] MyStore - entered confirmpasswod
+[INFO ] 2024-06-06 15:19:33.936 [main] MyStore - clicked on privacychckbx
+[INFO ] 2024-06-06 15:19:34.443 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 15:19:34.601 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:34.962 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 15:19:35.020 [main] MyStore - account logged out
+[INFO ] 2024-06-06 15:19:35.020 [main] MyStore - -------------------TESTCASE PASSED----------------------
+Name of test method sucessfully executed:verifylogin
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 06, 2024 3:19:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="LoginTest[devadigab@gmail.com, 123456789](1)" classname="mystore.testcases.TC_AccountLogin" time="1.531">
+    <system-out><![CDATA[1
+2
+devadigab@gmail.com
+123456789
+Name of test method started:LoginTest
+[INFO ] 2024-06-06 15:19:35.193 [main] MyStore - ***************TestCase Login with username and password starts*****************
+[INFO ] 2024-06-06 15:19:35.271 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:35.546 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:19:35.678 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:19:35.783 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:19:36.266 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 15:19:36.360 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:36.686 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 15:19:36.726 [main] MyStore - testcase passed
+Name of test method sucessfully executed:LoginTest
+]]></system-out>
+  </testcase>
+  <testcase name="AddToWishList[ramesh1234@gmail.com, 123456789](1)" classname="mystore.testcases.TC_AddProductToWishlist" time="12.894">
+    <system-out><![CDATA[1
+2
+ramesh1234@gmail.com
+123456789
+Name of test method started:AddToWishList
+[INFO ] 2024-06-06 15:19:39.286 [main] MyStore - ***************TestCase ADD TO Wishlist STARTS*****************
+[INFO ] 2024-06-06 15:19:39.391 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:39.664 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:19:39.931 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:19:40.036 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:19:40.603 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:19:42.917 [main] MyStore - click on home icon
+[INFO ] 2024-06-06 15:19:43.022 [main] MyStore - Added Mac to wishlist
+[INFO ] 2024-06-06 15:19:45.123 [main] MyStore - Added APPLE PC to wishlist
+[INFO ] 2024-06-06 15:19:47.221 [main] MyStore - Added IPHONE to wishlist
+[INFO ] 2024-06-06 15:19:49.576 [main] MyStore - clciked on wishlist cart
+[INFO ] 2024-06-06 15:19:49.826 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 15:19:52.179 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 15:19:52.180 [main] MyStore - ***************TestCase ADD TO WISHLIST ENDS*****************
+Name of test method sucessfully executed:AddToWishList
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2024 3:19:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="RemoveprdtfrmWishList[ramesh1234@gmail.com, 123456789](1)" classname="mystore.testcases.TC_AddProductToWishlist" time="11.279">
+    <system-out><![CDATA[1
+2
+ramesh1234@gmail.com
+123456789
+Name of test method started:RemoveprdtfrmWishList
+[INFO ] 2024-06-06 15:19:52.301 [main] MyStore - ***************TestCase Remove Product FROM Wishlist STARTS*****************
+[INFO ] 2024-06-06 15:19:52.381 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:19:52.651 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:19:52.820 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:19:52.999 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:19:53.511 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:19:55.782 [main] MyStore - clicked on wishlist cart
+[INFO ] 2024-06-06 15:19:58.200 [main] MyStore - Removed iphone from cart
+[INFO ] 2024-06-06 15:20:00.709 [main] MyStore - Removed macbook from cart
+[INFO ] 2024-06-06 15:20:03.578 [main] MyStore - Removed Apple Pc from cart
+[INFO ] 2024-06-06 15:20:03.579 [main] MyStore - ***************TestCase Remove Product FROM Wishlist ENDS*****************
+Name of test method sucessfully executed:RemoveprdtfrmWishList
+]]></system-out>
+  </testcase>
+  <testcase name="AddToCart[ramesh1234@gmail.com, 123456789](1)" classname="mystore.testcases.TC_BuyProduct" time="3.118">
+    <system-out><![CDATA[1
+2
+ramesh1234@gmail.com
+123456789
+Name of test method started:AddToCart
+[INFO ] 2024-06-06 15:20:07.211 [main] MyStore - ***************TestCase ADD TO CART STARTS*****************
+[INFO ] 2024-06-06 15:20:07.343 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:07.609 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:07.871 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:07.980 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:08.465 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 15:20:08.835 [main] MyStore - clicked on camera option
+[INFO ] 2024-06-06 15:20:09.275 [main] MyStore - Clicked on nikoncamera
+[INFO ] 2024-06-06 15:20:09.385 [main] MyStore - Clicked on addtocart buttn
+[INFO ] 2024-06-06 15:20:09.690 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 15:20:09.904 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:10.269 [main] MyStore - Clicked on Logout button
+[INFO ] 2024-06-06 15:20:10.330 [main] MyStore - testcase passed
+[INFO ] 2024-06-06 15:20:10.330 [main] MyStore - ***************TestCase ADDTO CART ENDS*****************
+Name of test method sucessfully executed:AddToCart
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2024 3:20:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="Edit_Information[ramesh1234@gmail.com, 123456789, ramesh123, vijay123, 8553745580](1)" classname="mystore.testcases.TC_Edit_information" time="7.385">
+    <system-out><![CDATA[1
+4
+ramesh1234@gmail.com
+123456789
+bharat
+devadiga
+Name of test method started:checkout
+[INFO ] 2024-06-06 15:20:10.405 [main] MyStore - ***************TestCase CHECKOUT  STARTS*****************
+[INFO ] 2024-06-06 15:20:10.487 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:10.756 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:10.907 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:11.028 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:11.453 [main] MyStore - Clicked on login button
+[INFO ] 2024-06-06 15:20:11.926 [main] MyStore - Clicked on shoppingcartoption
+[INFO ] 2024-06-06 15:20:12.032 [main] MyStore - clicked on estimate shopping option
+[INFO ] 2024-06-06 15:20:12.281 [main] MyStore - selected country
+[INFO ] 2024-06-06 15:20:12.491 [main] MyStore - Selected region
+[INFO ] 2024-06-06 15:20:12.612 [main] MyStore - Entered postalcode
+[INFO ] 2024-06-06 15:20:12.704 [main] MyStore - clicked on quotes button
+[INFO ] 2024-06-06 15:20:12.938 [main] MyStore - clicked on radio button
+[INFO ] 2024-06-06 15:20:18.024 [main] MyStore - clicked on apply shipping option
+[INFO ] 2024-06-06 15:20:18.035 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 15:20:18.051 [main] MyStore - scrolled the page
+[INFO ] 2024-06-06 15:20:18.474 [main] MyStore - clicked on checkout
+Name of test method failed:checkout
+Name of test method started:Edit_Information
+[INFO ] 2024-06-06 15:20:41.192 [main] MyStore - ***************TestCase Edit INFORMATION  STARTS*****************
+[INFO ] 2024-06-06 15:20:41.281 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:41.519 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:41.836 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:41.939 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:42.414 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:20:45.099 [main] MyStore - clicked on Edit option
+[INFO ] 2024-06-06 15:20:45.308 [main] MyStore - Entered first name
+[INFO ] 2024-06-06 15:20:45.509 [main] MyStore - Entered last name
+[INFO ] 2024-06-06 15:20:45.705 [main] MyStore - Entered Teleno
+[INFO ] 2024-06-06 15:20:46.105 [main] MyStore - clicked on continue button
+[INFO ] 2024-06-06 15:20:46.203 [main] MyStore - clicked on My account option
+[INFO ] 2024-06-06 15:20:48.574 [main] MyStore - clicked on logout 
+[INFO ] 2024-06-06 15:20:48.574 [main] MyStore - ***************TestCase Edit information Ends*****************
+Name of test method sucessfully executed:Edit_Information
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2024 3:20:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="ChangePassword[ramesh1234@gmail.com, 123456789, 123456789, 123456789](1)" classname="mystore.testcases.TC_Edit_information" time="4.238">
+    <system-out><![CDATA[1
+4
+ramesh1234@gmail.com
+123456789
+123456789
+123456789
+Name of test method started:ChangePassword
+[INFO ] 2024-06-06 15:20:48.661 [main] MyStore - ***************TestCase CHANGE PASSWORD  STARTS*****************
+[INFO ] 2024-06-06 15:20:48.745 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:48.989 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:49.159 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:49.283 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:49.803 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:20:52.122 [main] MyStore - clicked on passwod option
+[INFO ] 2024-06-06 15:20:52.275 [main] MyStore - Enter change password
+[INFO ] 2024-06-06 15:20:52.404 [main] MyStore - Enter confirm change password
+[INFO ] 2024-06-06 15:20:52.899 [main] MyStore - click on continue button
+[INFO ] 2024-06-06 15:20:52.899 [main] MyStore - ***************TestCase CHANGE PASSWORD  ENDS*****************
+Name of test method sucessfully executed:ChangePassword
+]]></system-out>
+  </testcase>
+  <testcase name="NavigationFlow[ramesh1234@gmail.com, 123456789](1)" classname="mystore.testcases.TC_NavigationFlow" time="5.371">
+    <system-out><![CDATA[1
+2
+ramesh1234@gmail.com
+123456789
+Name of test method started:NavigationFlow
+[INFO ] 2024-06-06 15:20:56.941 [main] MyStore - ***************TestCase NAVIGATION FLOW STARTS*****************
+[INFO ] 2024-06-06 15:20:57.036 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:20:57.277 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:20:57.582 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:20:57.685 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:20:58.184 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:20:58.611 [main] MyStore - clicked on editoption
+[INFO ] 2024-06-06 15:20:58.912 [main] MyStore - clicked on Password
+[INFO ] 2024-06-06 15:20:59.229 [main] MyStore - clicked on Address_Book
+[INFO ] 2024-06-06 15:20:59.539 [main] MyStore - clicked on wishlist
+[INFO ] 2024-06-06 15:20:59.840 [main] MyStore - clicked on order_history
+[INFO ] 2024-06-06 15:21:00.150 [main] MyStore - clicked on downloads
+[INFO ] 2024-06-06 15:21:00.527 [main] MyStore - clicked on RecurringPayments
+[INFO ] 2024-06-06 15:21:00.975 [main] MyStore - clicked on Rewards
+[INFO ] 2024-06-06 15:21:01.265 [main] MyStore - clicked on Returns
+[INFO ] 2024-06-06 15:21:01.562 [main] MyStore - clicked on Transactions
+[INFO ] 2024-06-06 15:21:01.858 [main] MyStore - clicked on NewsLetter
+[INFO ] 2024-06-06 15:21:02.310 [main] MyStore - clicked on logout
+[INFO ] 2024-06-06 15:21:02.311 [main] MyStore - ***************TestCase NAVIGATION FLOW ENDS*****************
+Name of test method sucessfully executed:NavigationFlow
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2024 3:20:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="RemoveAddressHistory[ramesh1234@gmail.com, 123456789](1)" classname="mystore.testcases.TC_RemoveAddressHistory" time="6.999">
+    <system-out><![CDATA[1
+2
+ramesh1234@gmail.com
+123456789
+Name of test method started:RemoveAddressHistory
+[INFO ] 2024-06-06 15:21:04.797 [main] MyStore - ***************TestCase Remove Address History STARTS*****************
+[INFO ] 2024-06-06 15:21:04.916 [main] MyStore - Clicked on MyAccount button
+[INFO ] 2024-06-06 15:21:05.162 [main] MyStore - Clicked on Loginbutton
+[INFO ] 2024-06-06 15:21:05.397 [main] MyStore - Entered Email id 
+[INFO ] 2024-06-06 15:21:05.505 [main] MyStore - Entered password 
+[INFO ] 2024-06-06 15:21:05.998 [main] MyStore - clicked on login button
+[INFO ] 2024-06-06 15:21:08.332 [main] MyStore - clicked on address book option 
+[INFO ] 2024-06-06 15:21:11.797 [main] MyStore - ***************TestCase Address History Ends*****************
+Name of test method sucessfully executed:RemoveAddressHistory
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2024 3:21:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="searchvalidproduct[Hp](1)" classname="mystore.testcases.TC_Searchproduct" time="0.509">
+    <system-out><![CDATA[1
+1
+Hp
+Name of test method started:searchvalidproduct
+[INFO ] 2024-06-06 15:21:14.386 [main] MyStore - ***************TestCase search validproduct starts*****************
+[INFO ] 2024-06-06 15:21:14.577 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 15:21:14.858 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 15:21:14.893 [main] MyStore - ***************TestCase search validproduct Ends*****************
+Name of test method sucessfully executed:searchvalidproduct
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2024 3:21:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 125
+]]></system-err>
+  </testcase>
+  <testcase name="searchinvalidproduct[Honda](1)" classname="mystore.testcases.TC_Searchproduct" time="0.45">
+    <system-out><![CDATA[1
+1
+Honda
+Name of test method started:searchinvalidproduct
+[INFO ] 2024-06-06 15:21:14.947 [main] MyStore - ***************TestCase search  invalidproduct starts*****************
+[INFO ] 2024-06-06 15:21:15.131 [main] MyStore - Entered product name
+[INFO ] 2024-06-06 15:21:15.363 [main] MyStore - Clicked on the searchbutton
+[INFO ] 2024-06-06 15:21:15.397 [main] MyStore - ***************TestCase search invalidproduct Ends*****************
+Name of test method sucessfully executed:searchinvalidproduct
+]]></system-out>
+  </testcase>
+</testsuite>

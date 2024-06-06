@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: mystore.testcases.TC_Searchproduct
+Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.123 s -- in mystore.testcases.TC_Searchproduct
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 109.595 s - in TestSuite
